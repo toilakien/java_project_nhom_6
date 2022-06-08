@@ -5,9 +5,7 @@ import Entities.phieumuon;
 import Entities.sach;
 import Proceed.Giaotiep;
 import Proceed.docghifile;
-
 import java.util.ArrayList;
-
 import javax.swing.JOptionPane;
 import javax.swing.RowFilter;
 import javax.swing.table.DefaultTableModel;
@@ -158,7 +156,8 @@ public final class Giaodien extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Quản lí sách-nhóm 6");
 
-        jTabbedPane1.setName("Nhóm 4"); // NOI18N
+        jTabbedPane1.setName("nhóm 6"); // NOI18N
+        jTabbedPane1.setRequestFocusEnabled(false);
 
         jPanel1.setBackground(new java.awt.Color(204, 204, 255));
 
