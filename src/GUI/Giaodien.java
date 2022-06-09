@@ -67,7 +67,6 @@ public final class Giaodien extends javax.swing.JFrame {
             });
         }
     }
-
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
@@ -594,7 +593,7 @@ public final class Giaodien extends javax.swing.JFrame {
 
         jPanel3.setBackground(new java.awt.Color(204, 204, 255));
 
-        nútuakhachmuon.setText("Sửa TT mượn");
+        nútuakhachmuon.setText("Sửa ");
         nútuakhachmuon.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 nútuakhachmuonActionPerformed(evt);
@@ -608,7 +607,7 @@ public final class Giaodien extends javax.swing.JFrame {
             }
         });
 
-        nutthemkhach.setText("Thêm TT mượn");
+        nutthemkhach.setText("Thêm ");
         nutthemkhach.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 nutthemkhachActionPerformed(evt);
@@ -622,7 +621,7 @@ public final class Giaodien extends javax.swing.JFrame {
             }
         });
 
-        nutxoakhachmuon.setText("Xóa TT đã trả");
+        nutxoakhachmuon.setText("Xóa");
         nutxoakhachmuon.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 nutxoakhachmuonActionPerformed(evt);
@@ -635,8 +634,6 @@ public final class Giaodien extends javax.swing.JFrame {
                 NutThoat3ActionPerformed(evt);
             }
         });
-
-        nhapngay.setText("   /   / 2017");
 
         jLabel16.setText("Mã đọc giả");
 
@@ -670,7 +667,7 @@ public final class Giaodien extends javax.swing.JFrame {
         jScrollPane3.setViewportView(banghienthiphieumuon);
 
         jLabel17.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
-        jLabel17.setText("Seach");
+        jLabel17.setText("Tìm Kiếm");
 
         nuttimpm.setText("Tìm");
         nuttimpm.addActionListener(new java.awt.event.ActionListener() {
@@ -709,29 +706,26 @@ public final class Giaodien extends javax.swing.JFrame {
                         .addComponent(jLabel17)
                         .addGap(339, 339, 339))
                     .addGroup(jPanel3Layout.createSequentialGroup()
-                        .addGap(91, 91, 91)
+                        .addGap(123, 123, 123)
                         .addComponent(jLabel27, javax.swing.GroupLayout.PREFERRED_SIZE, 65, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(nhaptukhoapm, javax.swing.GroupLayout.PREFERRED_SIZE, 278, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGap(18, 18, 18)
+                        .addComponent(nhaptukhoapm, javax.swing.GroupLayout.PREFERRED_SIZE, 206, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(34, 34, 34)
                         .addComponent(nuttimpm)
                         .addGap(0, 0, Short.MAX_VALUE))
                     .addGroup(jPanel3Layout.createSequentialGroup()
-                        .addGap(131, 131, 131)
-                        .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addGroup(jPanel3Layout.createSequentialGroup()
-                                .addComponent(nutluukhachmuon, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(18, 18, 18)
-                                .addComponent(nuthuy3, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(NutThoat3))
-                            .addGroup(jPanel3Layout.createSequentialGroup()
-                                .addComponent(nutthemkhach, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(18, 18, 18)
-                                .addComponent(nútuakhachmuon, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(nutxoakhachmuon)
-                                .addGap(32, 32, 32)))
+                        .addGap(179, 179, 179)
+                        .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(nutthemkhach, javax.swing.GroupLayout.DEFAULT_SIZE, 82, Short.MAX_VALUE)
+                            .addComponent(nutluukhachmuon, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                        .addGap(31, 31, 31)
+                        .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(nútuakhachmuon, javax.swing.GroupLayout.PREFERRED_SIZE, 94, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(nuthuy3, javax.swing.GroupLayout.PREFERRED_SIZE, 94, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(29, 29, 29)
+                        .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(NutThoat3)
+                            .addComponent(nutxoakhachmuon))
                         .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
         );
         jPanel3Layout.setVerticalGroup(
@@ -762,13 +756,14 @@ public final class Giaodien extends javax.swing.JFrame {
                             .addComponent(nutthemkhach)
                             .addComponent(nútuakhachmuon))
                         .addGap(33, 33, 33)
-                        .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(nutluukhachmuon)
-                            .addComponent(nuthuy3)
-                            .addComponent(NutThoat3)
+                        .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                                 .addComponent(nhapngay, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addComponent(jLabel19)))))
+                                .addComponent(jLabel19))
+                            .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                .addComponent(nutluukhachmuon)
+                                .addComponent(nuthuy3)
+                                .addComponent(NutThoat3)))))
                 .addGap(0, 127, Short.MAX_VALUE))
         );
 
@@ -1000,7 +995,7 @@ public final class Giaodien extends javax.swing.JFrame {
     }
     private void themsachActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_themsachActionPerformed
         
-        if (nhaptensach.getText().length() != 0) {
+        if (nhaptensach.getText().length() != 0 && nhaptheloaisach.getText().length() != 0 && nhaptacgia.getText().length() != 0 && nhapsoluongsach.getText().length() != 0) {
             int ma = 1;
             while (true) {
                 if (khongtrungmasach(ma)) {
@@ -1034,7 +1029,7 @@ public final class Giaodien extends javax.swing.JFrame {
             
     }//GEN-LAST:event_themsachActionPerformed
      else {
-            JOptionPane.showMessageDialog(rootPane, "Bạn cần nhập Tên sách!");
+            JOptionPane.showMessageDialog(rootPane, "Bạn cần nhập đủ thông tin!");
         }
     }
     private void nhaptensachActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_nhaptensachActionPerformed
@@ -1074,7 +1069,7 @@ public final class Giaodien extends javax.swing.JFrame {
 
     private void luusachActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_luusachActionPerformed
         
-        if (nhaptensach.getText().length() != 0) {
+        if (nhaptensach.getText().length() != 0 && nhaptheloaisach.getText().length() != 0 && nhaptacgia.getText().length() != 0 && nhapsoluongsach.getText().length() != 0) {
             int hang = banghienthisach.getSelectedRow();
             
             sach s = new sach();
@@ -1100,7 +1095,7 @@ public final class Giaodien extends javax.swing.JFrame {
             model.setValueAt(s.getSoluong(), hang, 4);
             model.setValueAt(s.getTinhtrang(), hang, 5);
         } else {
-            JOptionPane.showMessageDialog(rootPane, "Bạn cần nhập Tên sách!");
+            JOptionPane.showMessageDialog(rootPane, "Bạn cần nhập đủ thông tin!");
         }
     }//GEN-LAST:event_luusachActionPerformed
 
@@ -1217,7 +1212,7 @@ public final class Giaodien extends javax.swing.JFrame {
             model1.setValueAt(dg.getEmaildg(), hangdg, 3);
             model1.setValueAt(dg.getSdtdg(), hangdg, 4);
         } else {
-            JOptionPane.showMessageDialog(rootPane, "Bạn cần nhập Tên sách!");
+            JOptionPane.showMessageDialog(rootPane, "Bạn cần nhập đủ thông tin!");
         }
     }//GEN-LAST:event_luudgActionPerformed
 

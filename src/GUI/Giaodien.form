@@ -763,32 +763,29 @@
                               <EmptySpace min="-2" pref="339" max="-2" attributes="0"/>
                           </Group>
                           <Group type="102" alignment="0" attributes="0">
-                              <EmptySpace min="-2" pref="91" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="123" max="-2" attributes="0"/>
                               <Component id="jLabel27" min="-2" pref="65" max="-2" attributes="0"/>
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Component id="nhaptukhoapm" min="-2" pref="278" max="-2" attributes="0"/>
-                              <EmptySpace max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="nhaptukhoapm" min="-2" pref="206" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
                               <Component id="nuttimpm" min="-2" max="-2" attributes="0"/>
                               <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                           </Group>
                           <Group type="102" alignment="0" attributes="0">
-                              <EmptySpace min="-2" pref="131" max="-2" attributes="0"/>
-                              <Group type="103" groupAlignment="1" attributes="0">
-                                  <Group type="102" alignment="1" attributes="0">
-                                      <Component id="nutluukhachmuon" min="-2" pref="130" max="-2" attributes="0"/>
-                                      <EmptySpace type="separate" max="-2" attributes="0"/>
-                                      <Component id="nuthuy3" min="-2" pref="130" max="-2" attributes="0"/>
-                                      <EmptySpace max="-2" attributes="0"/>
-                                      <Component id="NutThoat3" min="-2" max="-2" attributes="0"/>
-                                  </Group>
-                                  <Group type="102" alignment="1" attributes="0">
-                                      <Component id="nutthemkhach" min="-2" pref="130" max="-2" attributes="0"/>
-                                      <EmptySpace type="separate" max="-2" attributes="0"/>
-                                      <Component id="nútuakhachmuon" min="-2" pref="130" max="-2" attributes="0"/>
-                                      <EmptySpace max="-2" attributes="0"/>
-                                      <Component id="nutxoakhachmuon" min="-2" max="-2" attributes="0"/>
-                                      <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
-                                  </Group>
+                              <EmptySpace min="-2" pref="179" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="nutthemkhach" pref="82" max="32767" attributes="0"/>
+                                  <Component id="nutluukhachmuon" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="nútuakhachmuon" min="-2" pref="94" max="-2" attributes="0"/>
+                                  <Component id="nuthuy3" min="-2" pref="94" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="NutThoat3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="nutxoakhachmuon" min="-2" max="-2" attributes="0"/>
                               </Group>
                               <EmptySpace max="32767" attributes="0"/>
                           </Group>
@@ -829,13 +826,15 @@
                                   <Component id="nútuakhachmuon" alignment="3" min="-2" max="-2" attributes="0"/>
                               </Group>
                               <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
-                              <Group type="103" groupAlignment="3" attributes="0">
-                                  <Component id="nutluukhachmuon" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  <Component id="nuthuy3" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  <Component id="NutThoat3" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  <Group type="103" alignment="3" groupAlignment="3" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="103" alignment="0" groupAlignment="3" attributes="0">
                                       <Component id="nhapngay" alignment="3" min="-2" max="-2" attributes="0"/>
                                       <Component id="jLabel19" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="nutluukhachmuon" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="nuthuy3" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="NutThoat3" alignment="3" min="-2" max="-2" attributes="0"/>
                                   </Group>
                               </Group>
                           </Group>
@@ -848,7 +847,7 @@
           <SubComponents>
             <Component class="javax.swing.JButton" name="n&#xfa;tuakhachmuon">
               <Properties>
-                <Property name="text" type="java.lang.String" value="S&#x1eed;a TT m&#x1b0;&#x1ee3;n"/>
+                <Property name="text" type="java.lang.String" value="S&#x1eed;a "/>
               </Properties>
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="n&#xfa;tuakhachmuonActionPerformed"/>
@@ -864,7 +863,7 @@
             </Component>
             <Component class="javax.swing.JButton" name="nutthemkhach">
               <Properties>
-                <Property name="text" type="java.lang.String" value="Th&#xea;m TT m&#x1b0;&#x1ee3;n"/>
+                <Property name="text" type="java.lang.String" value="Th&#xea;m "/>
               </Properties>
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="nutthemkhachActionPerformed"/>
@@ -880,7 +879,7 @@
             </Component>
             <Component class="javax.swing.JButton" name="nutxoakhachmuon">
               <Properties>
-                <Property name="text" type="java.lang.String" value="X&#xf3;a TT &#x111;&#xe3; tr&#x1ea3;"/>
+                <Property name="text" type="java.lang.String" value="X&#xf3;a"/>
               </Properties>
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="nutxoakhachmuonActionPerformed"/>
@@ -895,9 +894,6 @@
               </Events>
             </Component>
             <Component class="javax.swing.JTextField" name="nhapngay">
-              <Properties>
-                <Property name="text" type="java.lang.String" value="   /   / 2017"/>
-              </Properties>
             </Component>
             <Component class="javax.swing.JTextField" name="nhapmaspm">
             </Component>
@@ -971,7 +967,7 @@
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Tahoma" size="14" style="1"/>
                 </Property>
-                <Property name="text" type="java.lang.String" value="Seach"/>
+                <Property name="text" type="java.lang.String" value="T&#xec;m Ki&#x1ebf;m"/>
               </Properties>
             </Component>
             <Component class="javax.swing.JTextField" name="nhaptukhoapm">
